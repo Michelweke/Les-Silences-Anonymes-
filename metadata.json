@@ -1,0 +1,6 @@
+{
+  "name": "Les Silences Anonymes",
+  "description": "Chaque jour, un instant avec Dieu. Pensées du matin et du soir, méditations spirituelles et bibliothèque de livres chrétiens.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

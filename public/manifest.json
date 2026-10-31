@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Les Silences Anonymes",
+  "short_name": "Les Silences",
+  "description": "Chaque jour, un instant avec Dieu. Pensées spirituelles du matin et du soir, livres chrétiens.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070a13",
+  "theme_color": "#070a13",
+  "categories": ["lifestyle", "books", "spirituality"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

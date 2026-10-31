@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#141c2e" />
+      <stop offset="100%" stop-color="#070a13" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGlow)" />
+  
+  <!-- Subtle circular halo border -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-opacity="0.3" stroke-dasharray="6 4" />
+  <circle cx="256" cy="256" r="195" fill="none" stroke="#eab308" stroke-width="1" stroke-opacity="0.15" />
+  
+  <!-- Slender reverent Cross and open pages -->
+  <g transform="translate(256, 245)">
+    <!-- Vertical beam of the cross -->
+    <path d="M-4 -120 L4 -120 L4 90 L-4 90 Z" fill="url(#goldGrad)" />
+    <!-- Horizontal beam -->
+    <path d="M-60 -60 L60 -60 L60 -52 L-60 -52 Z" fill="url(#goldGrad)" />
+    
+    <!-- Radiant light point at cross intersection -->
+    <circle cx="0" cy="-56" r="6" fill="#fff" opacity="0.9" />
+    
+    <!-- Open Book curves underneath -->
+    <path d="M-90 60 Q-45 50 0 68 Q45 50 90 60 Q45 42 0 58 Q-45 42 -90 60 Z" fill="url(#goldGrad)" opacity="0.75" />
+    <path d="M-80 72 Q-40 62 0 80 Q40 62 80 72 Q40 55 0 71 Q-40 55 -80 72 Z" fill="url(#goldGrad)" opacity="0.4" />
+  </g>
+</svg>
